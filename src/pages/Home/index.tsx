@@ -32,7 +32,7 @@ function Home(): JSX.Element {
         })
       }
     } catch (e) {
-      setLoading('null')
+      setLoading('error')
     }
     return () => ac.abort()
   }, [listOfAllCoinOptions.length, setAllCoinItems])

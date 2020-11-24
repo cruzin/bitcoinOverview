@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 import { CoinOptionType, historyObjType, HistoryType } from './types'
 
-export const HistoryContext = createContext<HistoryType>([[], () => {}, [], () => {}])
+export const HistoryContext = createContext<HistoryType>([[], () => {}, [], () => {}]) // eslint-disable-line
 
 export const HistoryContextProvider = (props: any): JSX.Element => {
   const [history, addToHistory] = useState<historyObjType[]>(props?.startHistory || [])

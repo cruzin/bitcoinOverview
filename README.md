@@ -1,3 +1,14 @@
+## Comments about the challenge
+
+All in all a cosy challenge, fun with some curveballs in the form of react-router-dom version 6 beta and 
+having to figure out the CoinGecko api responses. Since i am not that well versed in crypto-currencies i decided to add 
+an autocomplete feature. (Even tho i found the response of the list-all-coins call to be shockingly big)
+
+Looking forward to discussing this :)
+
+ps! the package json eslint command is  
+
+
 ## Intro
 
 Welcome to the Cozero coding challenge!
