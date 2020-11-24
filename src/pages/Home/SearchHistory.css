@@ -1,0 +1,23 @@
+.history-container{
+    margin: auto;
+    width: 100%;
+}
+
+.history-card{
+    min-width: 30vw;
+    min-height: 3rem;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: lightgrey;
+    cursor: pointer;
+
+}
+
+.history-card:hover{
+    background-color: lightsteelblue;
+}
+
+.history-title{
+    margin: 3rem auto 0 auto;
+}

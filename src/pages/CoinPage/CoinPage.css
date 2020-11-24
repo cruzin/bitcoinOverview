@@ -1,0 +1,21 @@
+.coindata-header-container{
+    margin-left: -24px;
+}
+
+.rising{
+    color: forestgreen;
+    margin-left: 1rem;
+}
+.falling{
+    color: orangered;
+    margin-left: 1rem;
+}
+
+.coin-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.chart-container > div {
+    margin: auto
+}
